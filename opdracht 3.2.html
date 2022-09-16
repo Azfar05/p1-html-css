@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht 3.2</title>
+</head>
+<body>
+    <form action="">
+        <div>
+        <label for="voornaam"></label>
+        <input voornaam="voornaam" id="voornaam" placeholder="Voornaam" required>
+            <label for="achternaam"></label>
+        <input for="achternaam" id="achternaam" placeholder="Achternaam" required>
+    </div>
+
+    <div>
+        <label for="Straatnaam"></label>
+        <input type="text" name="Straatnaam" id="Straatnaam" placeholder="Straatnaam">
+        <label for="Huisnummer"></label>
+        <input type="text" name="Huisnummer" id="Huisnummer" placeholder="nr">
+    </div>
+    <div>
+        <label for="Postcode"></label>
+        <input type="text" name="Postcode" id="Postcode" placeholder="Postcode">
+    </div>
+    <div>
+        <label for="geslacht">Man</label>
+        <input type="radio" name="geslacht" id="man" value="man">
+    </div>
+    <div>
+        <label for="geslacht">Vrouw</label>
+        <input type="radio" name="geslacht" id="vrouw" value="vrouw">
+    </div>
+    <div>
+        <label for="Land"></label>
+        <input type="text" name="Land" id="Land" placeholder="Land">
+        <label for="Stad"></label>
+        <input type="text" name="Stad" id="Stad" placeholder="Stad">
+    </div>  
+    <div>
+        <label for="Aantal reisgenoten">Aantal reisgenoten</label>
+        <input type="number" name="Aantal reisgenoten" id="Aantal reisgenoten" min="0" max="4">
+    </div>
+    <div>
+        <label for="BSN"></label>
+        <input type="text" name="BSN" id="BSN" placeholder="BSN">
+    </div>
+    <div>
+     <label for="bestemming">Bestemming</label>
+     <input type="text" name="bestemming" id="bestemming">
+    </div>
+    <div>
+        <label for="Vertrekdatum"></label>
+        <input type="date" name="Vertrekdatum" id="Vertrekdatum" min="15-9-2022" max="1-1-2050"
+         placeholder="Vertrekdatum" required>
+        <label for=" Datum van terugkomst"></label>
+        <input type="date" name="Datum van terugkomst" id="Datum van terugkomst" min="15-9-2022" max="1-1-2050"
+         placeholder="datum terugkomst" required>
+    </div>
+<div> 
+    <label for="e-mail"></label>
+    <input type="email" name="e-mail" id="email" required placeholder="e-mail">
+</div>
+<div>
+        <label for="Wachtwoord">
+        <input type="password" name="Wachtwoord" id="Wachtwoord" placeholder="Wachtwoord">
+        </label>
+</div>
+<div><button type="submit">Boek nu</button></div>
+    </form>
+</body>
+</html>
