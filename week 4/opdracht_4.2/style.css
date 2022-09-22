@@ -1,0 +1,25 @@
+header {
+    background-position: center;
+    background-image: url("img/Header.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+h1 {
+    color: cyan;
+}
+
+p1 {
+    color: cyan;
+}
+img { 
+    height: 50vh;
+    width: 50vw;
+}
+article {
+    border-style: solid;
+    border-color: limegreen;
+    border-radius: 5px;
+    border-left-width: 4px;
+}
