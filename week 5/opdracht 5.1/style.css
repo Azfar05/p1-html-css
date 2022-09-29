@@ -1,0 +1,115 @@
+html {
+  font-family: Goldman Regular;
+  font-size: 100;
+  font-weight: bold;
+  color: white;
+}
+
+body {
+  background: black;
+  margin: 0;
+}
+
+nav {
+list-style-type: none;
+font-size: 2.5rem;
+position: fixed;
+display: flex;
+width: 100%;
+min-height: 10vh;
+align-items: center;
+flex-wrap: wrap;
+background: #00a9c7;
+justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0 4rem 0 4rem;
+}
+
+li a:hover:not(.active) {
+  background: #0098b6;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  padding: 4rem;
+  padding-bottom: 15rem;
+}
+
+.hacker {
+  width: 5vw;
+  margin-left: 2rem;
+}
+
+.hacker2 {
+  width: 100vw;
+  height: auto;
+}
+
+.htmlcss {
+  width: 24vw;
+  float: left;
+  padding-right: 7rem
+}
+
+.javascript {
+  width: 17vw;
+  float: right;
+  padding-right: 5rem;
+  padding-left: 7rem;
+}
+
+.php {
+  width: 20vw;
+  float: left;
+  padding-right: 7rem;
+}
+
+.sql {
+  width: 30vw;
+  float: right;
+  padding-left: 7rem;
+}
+
+p {
+  padding: 0 2rem 0 7rem
+}
+
+.p1 {
+  float: right;
+}
+
+.p2 {
+  float: left;
+}
+
+.p3 {
+  float: right;
+}
+
+.p4 {
+  float: left;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  height: 5vh;
+  width: 100%;
+  background: #00a9c7;
+}
