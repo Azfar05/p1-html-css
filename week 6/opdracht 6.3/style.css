@@ -1,0 +1,58 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    background-color: lightgray;
+    height: 10vh;
+}
+
+.box {
+    display: flex;
+    width: 200px;
+    height: 10vh;
+}
+
+.item1 {
+    display: flex;
+    color: blue;
+    font-size: 2em;
+    justify-content: flex-end;
+    box-sizing: 25vw 10vh;
+}
+
+.item2 {
+    display: flex;
+    color: blue;
+    font-size: 2em;
+    justify-content: flex-end;
+}
+
+.item3 {
+    display: flex;
+    color: blue;
+    font-size: 2em;
+    justify-content: flex-end;
+}
+
+.item4 {
+    display: flex;
+    color: blue;
+    font-size: 2em;
+    justify-content: flex-start;
+}
+
+.item5 {
+    display: flex;
+    color: blue;
+    font-size: 2em;
+    justify-content: flex-start;
+}
+
+.item6 {
+    display: flex;
+    color: blue;
+    font-size: 2em;
+    box-sizing: 25vw 10vh;
+    justify-content: flex-start;
+}
