@@ -5,6 +5,7 @@
     flex-direction: row;
     background-color: lightgray;
     height: 10vh;
+    width: 100%;
 }
 
 .box {
@@ -18,7 +19,7 @@
     color: blue;
     font-size: 2em;
     justify-content: flex-end;
-    box-sizing: 25vw 10vh;
+    border: 25% solid black;
 }
 
 .item2 {
@@ -53,6 +54,6 @@
     display: flex;
     color: blue;
     font-size: 2em;
-    box-sizing: 25vw 10vh;
     justify-content: flex-start;
+    border: 25% solid black;
 }
