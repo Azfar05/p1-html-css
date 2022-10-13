@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: "Goldman", cursive;}
+
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+ .navbar{
+  background-color: red;
+  display: flex;
+ }
+ .logo{
+  display: flex;
+  color: white;
+  font-size: 24px;
+ }
+      .p1{
+        font-size: large;
+        background-color: rgb(255, 188, 30);
+        min-height: 15.2vh;
+        text-decoration: white;
+      }
+      
+      .p2{
+        font-size: large;
+        background-color: orange;
+        min-height: 15.2vh;
+        text-decoration: white;
+      }
+      
+      .p3{
+        font-size: large;
+        background-color: rgb(80, 173, 80);
+        min-height: 15.2vh;
+        text-decoration: white;
+      }
+
+      @media only screen and (min-width:900px){
+        nav ul{
+          display: none;
+        }
+      }
+    
+
+@media only screen and (min-width: 577px) and (max-width: 900px) {
+  .navbar{
+    background-color: rgb(220, 106, 106);
+  }
+
+  .p1{
+    font-size: large;
+    background-color: rgb(229, 63, 63);
+    min-height: 15.2vh;
+    text-decoration: white;
+  }
+  
+  .p2{
+    font-size: large;
+    background-color: rgb(64, 64, 229);
+    min-height: 15.2vh;
+    text-decoration: white;
+  }
+  
+  .p3{
+    font-size: large;
+    background-color: blue;
+    min-height: 15.2vh;
+    text-decoration: white;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar{
+    background-color: blueviolet;
+  }
+
+    .p1{
+      font-size: large;
+      background-color: aquamarine;
+      min-height: 15.2vh;
+      text-decoration: white;
+    }
+    
+    .p2{
+      font-size: large;
+      background-color: rgb(158, 7, 158);
+      min-height: 15.2vh;
+      text-decoration: white;
+    }
+    
+    .p3{
+      font-size: large;
+      background-color: rgb(25, 4, 62);
+      min-height: 15.2vh;
+      text-decoration: white;}
+    }
+  
