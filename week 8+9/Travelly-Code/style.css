@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+nav{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#131c27;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul a{
+    display: flex;
+    padding: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: white;
+}
+.logo-info{
+    padding: 10px;
+    margin-left: 40px;
+    color: white;
+    font-size: 1.5rem;
+}
+.sec1{
+    background-image: url(/Img/landing-page.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.sec1 h1{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+.sec1 p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.btn{ 
+    padding: 10px;
+    margin-left: 50vw;
+    margin-top: 30px;   
+}
+.btn:hover{
+    background-color: #40534e;
+}
+.sec2{
+    background-image: url(/Img/new-york-page.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.sec2 h1{
+    padding-top: 10rem;
+    padding-left: 60px;
+    
+}
+.sec2 p{
+    padding-top: 5px;
+    padding-left: 60px;
+}
+.sec3{
+    background-color: #131c27;
+    padding: 10px;
+}
+.sec3 h1{
+ text-align: center;
+ color: white;
+}
+.sec3 p{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.box1, .box2, .box3{
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.box1{ 
+    
+    width: 210px;
+    height: 350px;
+    background-color:white;
+    border-style:outset;
+    margin: 25px;
+    }
+ .box1 header{
+        position: absolute;
+        background-color: #131c27;
+        height: 3rem;
+        width: 13rem;
+        
+    }
+   
+.box2{
+    width: 210px;
+    height: 350px;
+    background-color:rgb(255, 255, 255);
+    border-style:outset;
+    margin: 25px;
+}
+.box2 header{
+    position: absolute;
+    background-color: #131c27;
+    height: 3rem;
+    width: 13rem;
+}
+.box3{
+    width: 210px;
+    height: 350px;
+    background-color:rgb(255, 255, 255);
+    border-style:outset;
+    margin: 25px;
+}
+.box3 header{
+    position: absolute;
+    background-color: #131c27;
+    height: 3rem;
+    width: 13rem;
+}
+.box-info{
+    text-align:center;
+    box-sizing: border-box;     
+    height: 100vh; 
+    width: 100vw;
+    margin-top: 10%;
+    
+}
+.box-info p1{
+    position: relative;
+    top: 9rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon1{
+    height:38px;
+    width: 40px;
+    padding: 10px;
+    
+}
+.box1 .icon1{
+    margin: 0%;
+    margin-left: 5rem;
+    padding: 10px;
+}
+.icon2{
+    height:38px;
+    width: 40px;
+    padding: 10px;
+    
+}
+.box2 .icon2{
+    margin: 0%;
+    margin-left: 5rem;
+    padding: 10px;
+}
+.icon3{
+    height:38px;
+    width: 40px;
+    padding: 10px; 
+}
+.box3 .icon3{
+    margin: 0%;
+    margin-left: 5rem;
+    padding: 10px;    
+}
+
+.box1 h2{     
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 4.6rem;
+    font-size: 1.2rem; 
+}
+.box2 h2{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 4.6rem;
+    font-size: 1.2rem; 
+}
+.box3 h2{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 4.6rem;
+    font-size: 1.2rem;  
+}
+.contact-box{
+    width: 500px;
+    height:300px ;
+    box-shadow:#40534e;
+    top:50%;
+    left:50%;
+    
+}
+form{
+    margin: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    position: relative;
+}
+.btn2{
+    position: relative;
+    margin-top: 10%;
+    left: 18%;
+    font-size: 15px; 
+    width: 8vw;
+    
+    
+}
+.contact-box h2{
+    text-align: center;
+}
+.contact-box{
+    background-image: url(/Img/contact-mountain.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20%;  
+}
+.footer {
+    display:flex;
+    height: 12vh;
+    width: 100vw;
+    color: white;
+    background-color:#131c27;
+    align-items: center;
+    
+}
+.icons {
+    display: flex;
+    margin-left: 60rem;
+    
+ }
+ .icon1, .icon2, .icon3 {
+    display: flex;
+    height: 5vh;
+ }
+
+.footer h2 {
+    margin-left: 4rem; 
+}
+
+   
+
+@media only screen and (max-width: 600px) {
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#131c27;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+nav ul a{
+    position: relative;
+    padding: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+.btn{ 
+    position: absolute;
+    padding: 10px;
+    margin-top: 30px; 
+    margin-left: 15rem;  
+}
+
+.contact-box{
+    position:relative;
+    width: 250px;
+    height:150px ;
+    box-shadow:#40534e;
+    top:50%;
+    left:50%;
+    
+}
+form{
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    margin-left: 5rem;
+}
+.input-field{
+
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    position: relative;
+}
+.btn2{
+    position: relative;
+    margin-top: 20%;
+    left: 20%;
+    font-size: 14px; 
+    width: 8vw;
+    
+    
+}
+.contact-box{
+    background-image: url(img/mountin.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 30%;  
+    position: relative;
+    left:0;
+    
+}
+.content-box1{
+    margin-right: 10rem;
+    position: relative;
+    left: 18%;
+    
+}
+.footer {
+    position: relative;
+    display:flex;
+    height: 12vh;
+    width: 100vw;
+    color: white;
+    background-color:#131c27;
+    align-items: center;
+    
+}
+.icons {
+    display: flex;
+    margin-left: 15rem;
+    
+ }
+ .icon1, .icon2, .icon3 {
+    display: flex;
+    height: 5vh;
+ }
+
+.footer h2 {
+    margin-left: 2rem; 
+}
+
+
+}
